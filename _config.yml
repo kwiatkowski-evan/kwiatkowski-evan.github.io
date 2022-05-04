@@ -15,14 +15,14 @@
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "default", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "Chapel Hill, NC"
-title                    : "Kevin Donovan"
+locale                   : "Houston, TX"
+title                    : "Evan Kwiatkowski"
 title_separator          : "-"
-name                     : "Kevin Donovan"
+name                     : "Evan Kwiatkowski"
 description              : "Personal Website"
-url                      : https://kmdono02.github.io/
+url                      : https://kwiatkowski-evan.github.io/
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "kmdono02.github.io"
+repository               : "kwiatkowski-evan.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "About"
@@ -106,18 +106,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Kevin Donovan"
+  name             : "Evan Kwiatkowski"
   avatar           : "/assets/images/profile_2.jpeg"
-  bio              : "Postdoctoral Fellow<br>Biostatistics<br>PENNSIVE Lab<br>UPenn"
-  location         : "Philadelphia, PA"
+  bio              : "Postdoctoral Fellow<br>Statistics<br>Rice University"
+  location         : "Houston, TX"
   email            :
   links:
-    - label: "kmdono02@ad.unc.edu"
+    - label: "evan.kwiatkowski@rice.edu"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:kmdono02@ad.unc.edu
-    - label: "Google Scholar"
-      icon: "ai ai-google-scholar-square ai-lg"
-      url: "https://scholar.google.com/citations?user=h58gjroAAAAJ&hl=en"
+      url: mailto:evan.kwiatkowski@rice.edu
+    #- label: "Google Scholar"
+      #icon: "ai ai-google-scholar-square ai-lg"
+      #url: "https://scholar.google.com/citations?user=h58gjroAAAAJ&hl=en"
     #- label: "Twitter"
       #icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -126,7 +126,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/kmdono02"
+      url: "https://github.com/kwiatkowski-evan"
     #- label: "Instagram"
       #icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -142,7 +142,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/kmdono02"
+      url: "https://github.com/kwiatkowski-evan"
     #- label: "GitLab"
       #icon: "fab fa-fw fa-gitlab"
       # url:
