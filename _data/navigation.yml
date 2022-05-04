@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "Software"
+    url: /software/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Talks"
+    url: /talks/
+  - title: "Publications"
+    url: /_pages/pubs.html
+  - title: CV
+    url: /CV/CV.pdf

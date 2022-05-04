@@ -1,0 +1,220 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage{longtable}
+\usepackage{bibentry}
+\usepackage[maxbibnames=99, style=nature]{biblatex}
+\usepackage{hyperref}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Kevin Donovan} % Your name
+\address{119C Cole St., Chapel Hill, NC 27516} % Your address
+\address{(315)727-3603 \\ kmdono02@ad.unc.edu} % Your phone number and email
+
+\addbibresource{CV.bib}
+\addbibresource{CV_software.bib}
+\addbibresource{CV_talks.bib}
+
+\newcommand*{\boldname}[3]{%
+  \def\lastname{#1}%
+  \def\firstname{#2}%
+  \def\firstinit{#3}}
+\boldname{}{}{}
+
+% Patch new definitions
+\renewcommand{\mkbibnamegiven}[1]{%
+  \ifboolexpr{ ( test {\ifdefequal{\firstname}{\namepartgiven}} or test {\ifdefequal{\firstinit}{\namepartgiven}} ) and test {\ifdefequal{\lastname}{\namepartfamily}} }
+  {\mkbibbold{#1}}{#1}%
+}
+
+\renewcommand{\mkbibnamefamily}[1]{%
+  \ifboolexpr{ ( test {\ifdefequal{\firstname}{\namepartgiven}} or test {\ifdefequal{\firstinit}{\namepartgiven}} ) and test {\ifdefequal{\lastname}{\namepartfamily}} }
+  {\mkbibbold{#1}}{#1}%
+}
+
+\boldname{Donovan}{Kevin}{K.}
+
+\DeclareFieldFormat[misc]{title}{#1}
+\DeclareFieldFormat[proceedings]{title}{#1}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University of North Carolina at Chapel Hill} \hfill {\em August 2015 - August 2021} 
+\\ PhD in Biostatistics
+\\ Department of Biostatistics
+\\ Gillings School of Global Public Health
+\\ Adviser: Dr. Kihn Truong\\
+\\{\bf Syracuse University} \hfill {\em January 2013 - May 2015} 
+\\ B.S. in Mathematics\hfill { GPA: 3.962}
+\\ B.S. with Distinction in Economics
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Objective
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Objective}
+Leading statistical analyses and teaching statistics in a collaborative setting, along with developing methods for functional data analysis, incorporating concepts from signal processing.  I am most interested in applying these methods to analyze high-dimensional spatio-temporal data, particularly medical imaging and geographical data.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Research Interests
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research Interests}
+Functional Data Analysis\\
+Signal Processing\\
+Machine Learning\\
+Network Analysis
+\end{rSection}
+
+%--------------------------------------------------------------------------------
+%    Experience
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}{Experience}
+{\bf Instructor} \hfill {\em January 2021 - May 2021} 
+\\ BIOS 635: Introduction to Machine Learning
+\begin{itemize}
+    \item Instructor for graduate-level course serving as introduction to machine learning methods, including statistical theory and computational application with real data.  Students are cross-discipline, including statistics, computer science, and public health.
+    \item Developed course notes, assignments, and examinations/projects based on material from previous iteration of course.
+    \item Classes held virtually, including virtual office hours, under advisement from department faculty member
+\end{itemize}
+{\bf Research Assistant} \hfill {\em March 2018 - Present}
+\\ Carolina Institute for Developmental Disabilities
+\begin{itemize}
+    \item Development of algorithms for early prediction of Autism Spectrum Disorder (ASD) using behavioral data and imaging data, with random forests, support vector machines, and deep learning methods using R and Python.  Random forest algorithm using behavioral data published.
+    \item Analysis focused on examining causes of ASD prevalence and symptom heterogeneity by infant sex, using latent variable models such as factor analysis and growth mixture models.
+    \item Development of a set of tutorials detailing the use of R software for data management and data analysis.  Course based on these tutorials created with bi-weekly virtual sessions held and corresponding office hours.
+    \item Direct collaboration with scientists writing statistical analysis and results sections in published manuscripts.  Further duties included data management using R, writing code in R for all corresponding statistical analysis, and creation of figures and tables using R.  Methods used include generalized linear models, mixed models with longitudinal data, mediation models, and unsupervised clustering algorithms.
+\end{itemize}
+{\bf Teaching Assistant} \hfill {\em August 2017 - December 2017} 
+\\ BIOS 600: Principles of Statistical Inference
+\begin{itemize}
+    \item Teaching assistant for introductory statistics class for non-Biostatistics public health graduate students
+    \item Organized and ran lab sessions with 50+ students.  Sessions consisted of practice applying statistical principals to real and simulated data using R computing software.
+    \item Graded lab reports, held office hours and review sessions for mid term and final examinations
+\end{itemize}
+{\bf Research Assistant} \hfill {\em September 2016 - May 2019} 
+\\ Collaborative Studies Coordinating Center (CSCC)
+\begin{itemize}
+    \item Under direction of mentor, lead statistical analyses for published research on HIV-positive youth, directly collaborating with investigators across the United States.  Responsibilities included data management using SAS and R, writing code in R for all statistical analyses, creation of figures and tables using R, and communicating the results and methods to investigators.
+    \item Development of R package \textbf{lodr} containing software to conduct regression analyses when some predictors have a known limit of detection, requiring the use of Rcpp and C++ code.  Package made publicly available on CRAN.
+\end{itemize}
+{\bf Research Assistant} \hfill {\em August 2015 - March 2018} 
+\\ Dr. Michael G. Hudgens
+\begin{itemize}
+    \item Developed and published research on methodology for estimating biomarker levels which correspond to a desired upper bound on the risk of disease, with corresponding R code for implementing the methods published on Github.
+\end{itemize}
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	Coursework
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Coursework}
+Advanced Probability and Statistical Inference\\
+Linear and Generalized Linear Models\\
+Longitudinal Data Analysis\\
+Statistical Methods in Diagnostic Medicine\\
+Machine Learning\\
+Survival Analysis\\
+Spatial Statistics
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Computing Experience
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Computing Experience}
+R, SAS, C++, Rcpp, Matlab, Python, Linux cluster computing
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Developed Software
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Developed Software}
+
+\begin{refsection}[CV_software.bib]
+\nocite{*}
+\leavevmode\printbibliography[omitnumbers=true,heading=none]
+\end{refsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Publications
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Publications}
+
+\begin{refsection}[CV.bib]
+\nocite{*}
+\printbibliography[keyword=Published,omitnumbers=true,title=Published]
+\printbibliography[keyword=Accepted,omitnumbers=true,title=Accepted]
+\printbibliography[keyword=Submitted,omitnumbers=true,title=Submitted]
+\end{refsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Professional Service
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Professional Service}
+Reviewer for
+\begin{itemize}
+\item Biometrics
+\end{itemize}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Professional Presentations
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Professional Presentations}
+
+\begin{refsection}[CV_talks.bib]
+\nocite{*}
+\leavevmode\printbibliography[omitnumbers=true,heading=none]
+\end{refsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	References
+%----------------------------------------------------------------------------------------
+\begin{rSection}{References}
+Available upon request
+\end{rSection}
+
+\end{document}
