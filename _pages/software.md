@@ -19,18 +19,10 @@ permalink: /software/
 **Nonparametric inference for immune response thresholds of risk in vaccine studies (Donovan et al., 2019)**  
 [Publication](https://www.ncbi.nlm.nih.gov/pubmed/31285781); [Supplement](https://kmdono02.github.io/Risk_Threshold/); [GitHub](https://github.com/kmdono02/Risk_Threshold)
 --->
-**SAS Paper 2017**  
-**(Kwiatkowski)**    
-[Publication](...); [CRAN](); [GitHub]()
+**Automated Comparison Tables using PROC REPORT**    
+**(Kwiatkowski, 2018)**
+[Technical Paper](https://www.lexjansen.com/sesug/2018/SESUG2018_Paper-189_Final_PDF.pdf); [GitHub]()
 
-**SAS Paper 2018**  
-**(Kwiatkowski)**    
-[Publication](...); [CRAN](); [GitHub]()
-
-**Dissertation Paper 2022**
-**(Kwiatkowski)**
-[Publication](...); [CRAN](); [GitHub]()
-
-**Dissertation Paper 2022**
-**(Kwiatkowski)**
-[Publication](...); [CRAN](); [GitHub]()
+**Backward Variable Selection for Logistic Regression Based on Percentage Change in Odds Ratio**  
+**(Kwiatkowski et al., 2017)**
+[Technical Paper](https://www.lexjansen.com/sesug/2017/CC-140.pdf); [GitHub]()
