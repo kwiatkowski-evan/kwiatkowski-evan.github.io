@@ -115,9 +115,9 @@ author:
     - label: "evan.kwiatkowski@rice.edu"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:evan.kwiatkowski@rice.edu
-    #- label: "Google Scholar"
-      #icon: "ai ai-google-scholar-square ai-lg"
-      #url: "https://scholar.google.com/citations?user=h58gjroAAAAJ&hl=en"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar-square ai-lg"
+      url: "https://scholar.google.com/citations?user=f_vjvwEAAAAJ&hl=en"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
        url: "https://twitter.com/StatsEvan/"
