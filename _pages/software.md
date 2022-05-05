@@ -21,8 +21,8 @@ permalink: /software/
 --->
 **Automated Comparison Tables using PROC REPORT**    
 **(Kwiatkowski, 2018)**
-[Technical Paper](https://www.lexjansen.com/sesug/2018/SESUG2018_Paper-189_Final_PDF.pdf); [GitHub]()
+[Technical Paper](https://www.lexjansen.com/sesug/2018/SESUG2018_Paper-189_Final_PDF.pdf); [GitHub](https://github.com/kwiatkowski-evan/automated-comparison-tables)
 
 **Backward Variable Selection for Logistic Regression Based on Percentage Change in Odds Ratio**  
 **(Kwiatkowski et al., 2017)**
-[Technical Paper](https://www.lexjansen.com/sesug/2017/CC-140.pdf); [GitHub]()
+[Technical Paper](https://www.lexjansen.com/sesug/2017/CC-140.pdf); [GitHub](https://github.com/kwiatkowski-evan/backward-variable-selection)
