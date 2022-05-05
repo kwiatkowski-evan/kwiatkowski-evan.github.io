@@ -3,6 +3,8 @@ title: "Software"
 layout: single
 permalink: /software/
 ---
+
+<!---
 **lodr: R package for analyzing covariates subject to a limit of detection**  
 **(Donovan et al., 2020)**    
 [Publication](...); [CRAN](https://cran.r-project.org/web/packages/lodr/index.html); [GitHub](https://github.com/mloop/lodr)
@@ -16,3 +18,19 @@ permalink: /software/
 
 **Nonparametric inference for immune response thresholds of risk in vaccine studies (Donovan et al., 2019)**  
 [Publication](https://www.ncbi.nlm.nih.gov/pubmed/31285781); [Supplement](https://kmdono02.github.io/Risk_Threshold/); [GitHub](https://github.com/kmdono02/Risk_Threshold)
+--->
+**SAS Paper 2017**  
+**(Kwiatkowski)**    
+[Publication](...); [CRAN](); [GitHub]()
+
+**SAS Paper 2018**  
+**(Kwiatkowski)**    
+[Publication](...); [CRAN](); [GitHub]()
+
+**Dissertation Paper 2022**
+**(Kwiatkowski)**
+[Publication](...); [CRAN](); [GitHub]()
+
+**Dissertation Paper 2022**
+**(Kwiatkowski)**
+[Publication](...); [CRAN](); [GitHub]()
