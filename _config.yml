@@ -118,6 +118,9 @@ author:
     - label: "Google Scholar"
       icon: "ai ai-google-scholar-square ai-lg"
       url: "https://scholar.google.com/citations?user=f_vjvwEAAAAJ&hl=en"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar-square ai-lg"
+      url: "https://scholar.google.com/citations?user=f_vjvwEAAAAJ&hl=en"
     #- label: "Twitter"
     #  icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/StatsEvan/"
@@ -134,9 +137,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "ai ai-google-scholar-square ai-lg"
-       url: "https://twitter.com/StatsEvan/"
+    #- label: "Twitter"
+      #icon: "ai ai-google-scholar-square ai-lg"
+       #url: "https://twitter.com/StatsEvan/"
     #- label: "Facebook"
       #icon: "fab fa-fw fa-facebook-square"
       # url: 
