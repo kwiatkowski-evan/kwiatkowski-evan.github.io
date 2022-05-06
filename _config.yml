@@ -116,7 +116,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:evan.kwiatkowski@rice.edu
     - label: "Twitter"
-      icon: "ai ai-google-scholar-square ai-lg"
+      icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/StatsEvan/"
     - label: "Google Scholar"
       icon: "ai ai-google-scholar-square ai-lg"
